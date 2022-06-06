@@ -1,0 +1,34 @@
+.details > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 6px;
+}
+
+.details input {
+    position: relative;
+    top: -6px;
+}
+
+.details > div.one {
+    grid-template-columns: 100%;
+}
+
+.details > div.three {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.details > div.four {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.details > div.five {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.imageUpload {
+    box-shadow: 1px 1px 3px rgb(50 50 50 / 30%);
+    width: 100%;
+    height: auto;
+}

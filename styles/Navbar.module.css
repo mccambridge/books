@@ -1,0 +1,19 @@
+.logo {
+    font: 2.25rem/1rem 'Gochi Hand', cursive;
+    font-weight: normal;
+    text-align: left;
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        padding: 21px 0;
+        margin-right: 24px;
+        display: block;
+        top: 0;
+    }
+}
